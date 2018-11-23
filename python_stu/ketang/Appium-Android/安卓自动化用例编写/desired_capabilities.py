@@ -7,16 +7,11 @@
 
 def get_desired_capabilities():
     desired_caps = {
-        "platformName": "Android",
-        "platformVersion": "6.0.1",
-        "deviceName": "OPPO",
-        "appPackage": "cn.sqm.citymine_safety",
-        "appActivity": ".activity.LauncherActivity",
-        "udid": "608ad0fe",
-        "unicodeKeyboard": True,
-        "resetKeyboard": True
-        # 'appWaitActivity': ".LoginActivity"
-    }
+  "platformName": "android",
+  "deviceName": "xxx",
+  "appPackage": "com.example.android.apis",
+  "appActivity": ".ApiDemos"
+}
     return desired_caps
 
 def get_uri():
